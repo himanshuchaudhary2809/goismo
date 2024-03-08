@@ -1,0 +1,41 @@
+.table_container2 {
+	margin-top: 10vh;
+	/* width: 100%; */
+}
+
+.main_table2 {
+	margin: 0px 1rem;
+
+	border-collapse: collapse;
+	/* margin-top: 20px; */
+
+	/* width: 100%; */
+}
+.table_head2 th {
+	align-items: center;
+	border: 1px solid darkgray;
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 0.5rem;
+}
+.table_body2 {
+	padding-right: 10px;
+	margin: 0rem 1rem;
+	background-color: white;
+	width: 96%;
+}
+.table_body2 td {
+	padding: 1rem 0 1.5rem 1.5rem;
+	border: 1px solid darkgray;
+}
+.td_blue {
+	background-color: lightblue;
+}
+.td_yellow {
+	background-color: rgb(233, 233, 126);
+}
+.td_pink {
+	background-color: lightpink;
+}

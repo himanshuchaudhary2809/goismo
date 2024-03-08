@@ -1,0 +1,50 @@
+.table_container {
+	margin-top: 30px;
+}
+.table_heading {
+	background-color: white;
+	color: black;
+
+	width: 96%;
+	margin: 0px 1rem;
+	padding: 0.2rem 0 1.5rem 1.5rem;
+	border-radius: 5px 5px 0 0;
+}
+.main_table {
+	margin: 0px 1rem;
+	border-collapse: collapse;
+	margin-top: 20px;
+	width: 96%;
+}
+.table_head th {
+	margin-bottom: 10px;
+	text-align: left;
+	padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.table_body {
+	padding-right: 10px;
+	margin: 0rem 1rem;
+	background-color: white;
+	width: 96%;
+}
+.table_body td {
+	padding: 1rem 0 1.5rem 1.5rem;
+	border-bottom: 0.2px solid lightgray;
+}
+.table_action {
+	width: 25px;
+	height: 20px;
+	color: gray;
+	cursor: pointer;
+}
+.role_btn {
+	background: #0095ff;
+	color: white;
+	text-align: center;
+	width: 60%;
+	padding: 5px;
+	border-radius: 5px;
+}
+.c_pink {
+	background-color: green;
+}

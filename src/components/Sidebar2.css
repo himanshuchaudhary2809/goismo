@@ -1,0 +1,75 @@
+.sidebar2 {
+	background-color: #dfe1f9;
+	border: 1px solid black;
+	width: 15vw;
+	min-height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.header2 img {
+	height: 50px;
+	width: 15vw;
+}
+.double_arrow_left_flex {
+	display: flex;
+	justify-content: right;
+}
+.double_arrow_left {
+	cursor: pointer;
+	height: 6vh;
+	width: 5vw;
+}
+.side_list2 {
+	border-radius: 10px 10px 0 0;
+
+	width: 80%;
+	margin-top: 10px;
+	align-items: center;
+}
+.side_main_list2 {
+	display: flex;
+	flex-direction: column;
+	height: 80vh;
+	justify-content: space-between;
+}
+.logset_icon {
+	display: flex;
+	justify-content: space-evenly;
+}
+.logset_icon img {
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+}
+.sidebar_open {
+	background-color: #dfe1f9;
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 5vw;
+	min-height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.logset_icon2 {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 10vh;
+}
+.logset_icon2 img {
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 30px;
+	padding: 5px;
+}
+.sidebar_submenu {
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+.sidebar_submenu3 {
+	margin-left: 20px;
+}

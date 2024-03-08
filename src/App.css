@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+
+	padding: 0;
+}
+body {
+	background: #ebf4fb;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+.dashboard {
+	display: flex;
+	position: relative;
+}
+
+/*================================== Sidebar ==================================== */
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+
+	background-image: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.2) 0%,
+		rgba(247, 245, 255, 0) 100%
+	);
+}
+.header {
+	margin-top: 31px;
+}
+.header img {
+	width: 258px;
+	height: 50px;
+}
+.list-item {
+	color: black;
+	font-size: 15px;
+
+	padding: 10px 20px;
+	list-style: none;
+}
+.icon-holder {
+	width: Fixed (275px);
+	height: Fixed (293px);
+	top: 122px;
+	left: 16px;
+	gap: 16px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+
+	color: black;
+}
+.side-list {
+	background: linear-gradient(180deg, #00000033 0%, #f7f5ff00 20%);
+	border-radius: 10px 10px 0 0;
+	width: 80%;
+	margin-top: 10px;
+	align-items: center;
+}
+
+.main-group {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.list-group {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 12px;
+}
+
+/*================================ End Sidebar ================================================= */
+
+.right {
+	width: 100%;
+}
+
+/*================================ Searchbar =====================================================*/
+.input {
+	width: 100%;
+	border: 0;
+	outline: 0;
+}
+.input-group {
+	height: 45px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 20px;
+	background-color: white;
+	width: 600px;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+/*================================= End SearchBar ==================================*/
+
+/* ================================ profile_img ================================== */
+.profile_img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.profile_text {
+	margin-left: 10px;
+}
+.profile_div {
+	width: 100%;
+	display: flex;
+
+	align-items: flex-start;
+	padding-left: 10%;
+	padding-right: 10%;
+
+	margin-top: 20px;
+}
+.profile_para_name {
+	font-size: medium;
+	font-weight: 500;
+}
+.profile_name {
+	font-size: small;
+}
+/* ========================End profile_image ======================================= */

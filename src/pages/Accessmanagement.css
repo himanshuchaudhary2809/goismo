@@ -1,0 +1,120 @@
+.access_managemnet_container {
+	height: 100%;
+	width: 100%;
+	background-color: #ebf4fb;
+}
+.profile_header_container {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.main_profile_text {
+	font-size: small;
+}
+.bell_icon {
+	font-size: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.main_profile_content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mt-0 {
+	margin-top: 0;
+}
+.w-200 {
+	width: 250px;
+	border-left: 1px solid gray;
+}
+.down_arrow_icon {
+	margin-top: 10px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.down_arrow {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search_container_text {
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+}
+.search_flex {
+	display: flex;
+	gap: 60px;
+}
+.user_text_name {
+	color: #4a85f6;
+	font-size: large;
+}
+.search_container {
+	width: 95%;
+	margin-top: 0.5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	display: flex;
+	justify-content: space-between;
+}
+.search_icon {
+	color: grey;
+	font-size: 0.7em;
+	margin: 0px 5px;
+	cursor: pointer;
+}
+.sort_btn {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	font-size: small;
+	cursor: pointer;
+}
+.user_button {
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+
+	background-color: #4a85f6;
+	width: 100px;
+	height: 45px;
+	top: 201px;
+	left: 956px;
+}
+.sort_btn_flex {
+	align-items: center;
+	display: flex;
+	gap: 10px;
+	width: 45%;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+.filter_icon {
+	width: 20px;
+	height: 20px;
+	align-items: center;
+	cursor: pointer;
+}
+.list-item {
+	color: black;
+	font-size: 15px;
+
+	padding: 10px 20px;
+	list-style: none;
+}
+.selected-list-item {
+	background: #f5f0e5;
+	color: black;
+	font-size: 15px;
+
+	padding: 10px 20px;
+	list-style: none;
+}

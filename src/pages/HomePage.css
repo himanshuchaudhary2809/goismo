@@ -1,0 +1,116 @@
+.heading_container {
+	margin: 50px 0 0 20vw;
+}
+.home_header {
+	align-items: center;
+	border: 2px solid black;
+	height: 7vh;
+	width: 100%;
+	display: flex;
+	gap: 20px;
+}
+.home_container {
+	background: #dfe1f9;
+	border: 1px solid black;
+}
+.home_table_container {
+	background: #dfe1f9;
+	display: flex;
+}
+.weekly_bar {
+	background: #dfe1f9;
+	border-left: 1px solid black;
+	top: 58px;
+	position: absolute;
+	right: 0;
+	overflow-y: scroll;
+	height: 100%;
+	padding-top: 10px;
+	text-align: center;
+	width: 20%;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+.flex_style {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.pass {
+	border-radius: 3px;
+
+	width: 12px;
+	height: 12px;
+	background-color: green;
+	border: none;
+	outline: none;
+}
+.pass_flex {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.fail {
+	border-radius: 3px;
+
+	width: 12px;
+	height: 12px;
+	background-color: red;
+	border: none;
+	outline: none;
+}
+.fail_flex {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+.non_executed {
+	border-radius: 3px;
+	width: 12px;
+	height: 12px;
+	background-color: yellow;
+	border: none;
+	outline: none;
+}
+.executed_flex {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+.pie_class {
+	margin-top: 3vh;
+	display: flex;
+	justify-content: center;
+}
+.build_chart h3 {
+	margin-top: 4vh;
+}
+.arrow_right {
+	font-size: 3rem;
+	padding-left: 5px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.weekly_bar_close {
+	top: 58px;
+	right: 0;
+	z-index: 1;
+	height: 100%;
+	position: absolute;
+	border-left: 1px solid black;
+	overflow-y: scroll;
+	padding-top: 20px;
+	width: 5%;
+	background: #dfe1f9;
+}
+.arrow {
+	cursor: pointer;
+}
+.image_top_menu {
+	align-items: center;
+	display: flex;
+}
