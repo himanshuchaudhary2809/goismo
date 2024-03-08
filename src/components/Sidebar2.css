@@ -62,7 +62,7 @@
 .logset_icon2 img {
 	border: 1px solid gray;
 	border-radius: 5px;
-	width: 30px;
+	width: 1.5rem;
 	padding: 5px;
 }
 .sidebar_submenu {
@@ -71,5 +71,6 @@
 }
 
 .sidebar_submenu3 {
+	margin-top: 5px;
 	margin-left: 20px;
 }
