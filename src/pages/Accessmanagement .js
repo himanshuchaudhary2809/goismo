@@ -13,7 +13,7 @@ const Accessmanagement = () => {
 			<div className="access_managemnet_container">
 				<div className="profile_header_container">
 					<div className="main_profile_text">
-						<h2>Hello, Himanshu Chaudhary</h2>
+						<h2>Hello, Jatin Chaudhary</h2>
 						<p>Have a Nice Day</p>
 					</div>
 					<div className="main_profile_content">
